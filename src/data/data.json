@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Alex",
+    "photo": "https://st2.depositphotos.com/3591429/11174/i/950/depositphotos_111747414-stock-photo-man-jogging-in-mountains.jpg",
+    "age": 25,
+    "status": "student",
+    "courses": ["JS", "React"]
+  },
+  {
+    "name": "Alice",
+    "photo": "https://st2.depositphotos.com/1900167/6210/i/950/depositphotos_62107429-stock-photo-young-beautiful-girl-working-with.jpg",
+    "age": 35,
+    "status": "student",
+    "courses": ["JS", "Angular"]
+  },
+  {
+    "name": "Molly",
+    "photo": "https://st2.depositphotos.com/1034986/12275/i/950/depositphotos_122755100-stock-photo-woman-tapping-the-screen-of.jpg",
+    "age": 56,
+    "status": "student",
+    "courses": ["JS", "Node"]
+  }
+]

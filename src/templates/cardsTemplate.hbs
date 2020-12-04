@@ -1,0 +1,19 @@
+<ul>
+  {{#each this}}
+    <li class="card">
+       <img class="photo" src={{photo}} alt={{name}}/>
+       <h2>name: {{name}}</h2>
+       <p>age: {{age}}</p>
+       <p>status: {{status}}</p>
+       <h3>Skills: </h3>
+       <ul>
+          {{#each courses}}
+          <li>
+            <span>{{this}}</span>
+          </li>
+          {{/each}}
+        </ul>
+    </li>
+  {{/each}}
+</ul>
+

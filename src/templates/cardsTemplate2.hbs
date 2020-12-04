@@ -1,0 +1,19 @@
+    <li class="card">
+       <img class="photo" src={{photo}} alt={{name}}/>
+       <h2>name: {{name}}</h2>
+
+          {{!-- {{#if age}} --}}
+          <p>age: {{age}} </p>
+          {{!-- {{else}} --}}
+          {{!-- <p>age: No age info</p> --}}
+          {{!-- {{/if}} --}}
+       <p>status: {{status}}</p>
+       <h3>Skills: </h3>
+       <ul>
+          {{#each courses}}
+          <li>
+            <span>{{this}}</span>
+          </li>
+          {{/each}}
+        </ul>
+    </li>
